@@ -1,0 +1,126 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Layout geral */
+body {
+  background-color: #e0c7a4; /* Bege da imagem */
+  color: #000;
+}
+
+/* Cabeçalho */
+.header {
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.header input[type="search"] {
+  padding: 10px;
+  width: 300px;
+  border-radius: 6px;
+  border: none;
+}
+
+/* Seção dos cards principais (Biblioteca e Login) */
+.main-options {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 40px auto;
+  flex-wrap: wrap;
+}
+
+.option-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.option-card .icon {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.option-card strong {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Ranking */
+#ranking {
+  text-align: center;
+  margin: 60px 0 40px;
+}
+
+#ranking h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Rodapé */
+.footer {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+  border-top: 1px solid #ccc;
+  flex-wrap: wrap;
+}
+
+.footer .left,
+.footer .right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer button {
+  background-color: #1e1e1e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.footer .socials span {
+  margin-right: 10px;
+  font-size: 20px;
+}
